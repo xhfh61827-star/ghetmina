@@ -1,11 +1,11 @@
-﻿(function () {
+(function () {
     const btnNo = document.getElementById('btn-no');
     const btnYes = document.getElementById('btn-yes');
     const arena = document.getElementById('arena');
     const catImg = document.getElementById('cat-img'); // <img id="cat-img">
 
     let escapeCount = 0;
-    const MAX_ESCAPES = 10; // số lần "Không" trốn được
+    const MAX_ESCAPES = 7; // số lần "Không" trốn được
 
     function rand(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
